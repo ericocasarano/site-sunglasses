@@ -175,6 +175,7 @@ h2 {
         margin-top: 10px;
     }
     .menu-mobile button {
+        display: block;
         padding: 5px 8px;
         border: none;
         background-color: black;
