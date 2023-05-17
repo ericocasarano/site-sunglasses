@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunglasses Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SUNGLASSES STORE</h1>
+            <div  class="menu-mobile" >
+                <button type="button">Menu</button>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>Sobre a Sunglasses
+                        <ul class="submenu">
+                            <li><a href="#">A Marca</a></li>
+                            <li><a href="#">Encontre uma Loja</a></li>
+                        </ul>
+                    </li>
+                    <li>Produtos
+                        <ul class="submenu">
+                            <li><a href="#">Óculos Clássico</a></li>
+                            <li><a href="#">Óculos Aviador</a></li>
+                            <li><a href="#">Óculos Retrô</a></li>
+                            <li><a href="#">Óculos Esporte</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clear"></div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="sobre">
+                <img src="./imgs/pexels-nino-sanger-15265553.jpg" alt="Modelo usando óculos de sol">
+                <article>
+                    <h2>Sobre a Sunglasses</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis esse omnis voluptatibus, at aperiam pariatur autem est quisquam in quae asperiores maxime? Dolores excepturi omnis similique facilis corrupti dolor quam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, aut. Nisi exercitationem et nam minus quo amet atque similique dolores, optio consequatur perspiciatis numquam est debitis facilis quidem molestias esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, laboriosam accusamus id reiciendis</p>
+                    <br>
+                    <p>Veniam assumenda adipisci libero deleniti dolor eius eum distinctio error cumque debitis, quam cum quisquam eveniet sed?</p>
+                </article>
+            </section>
+            <section class="produtos">
+                <h2>Produtos</h2>
+                <div class="grid-produtos">
+                    <div class="cont-produto">
+                        <img src="./imgs/OC-CL-4041-0101_300kb.webp" alt="foto de óculos de sol">
+                        <h3>Óculos XPTO</h3>
+                        <p class="descricao-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="button">ADICIONAR AO CARRINHO</button>
+                    </div>
+                    <div class="cont-produto">
+                        <img src="./imgs/OC.ES.1379-0808-7.webp" alt="foto de óculos de sol">
+                        <h3>Óculos XPTO</h3>
+                        <p class="descricao-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="button">ADICIONAR AO CARRINHO</button>
+                    </div>
+                    <div class="cont-produto">
+                        <img src="./imgs/OC-MT-3510-0101_300kb.webp" alt="foto de óculos de sol">
+                        <h3>Óculos XPTO</h3>
+                        <p class="descricao-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="button">ADICIONAR AO CARRINHO</button>
+                    </div>
+                    <div class="cont-produto">
+                        <img src="./imgs/OC.ES.1379-0819-6.webp" alt="foto de óculos de sol">
+                        <h3>Óculos XPTO</h3>
+                        <p class="descricao-produto">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <button type="button">ADICIONAR AO CARRINHO</button>
+                    </div>                        
+
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $('.menu-mobile button').click(function() {
+                $('.menu').slideToggle();
+            })
+        })
+    </script>        
+</body>
+</html>
